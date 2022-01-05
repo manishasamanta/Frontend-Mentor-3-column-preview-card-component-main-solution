@@ -1,0 +1,81 @@
+
+
+body{
+  background-color: hsl(0, 0%, 95%);
+  padding-left:10%;
+  padding-right: 10%;
+  padding-top: 5%;
+
+  text-align: center;
+
+}
+
+h1{
+  clear: both;
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  text-align: left;
+
+
+}
+
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: 1.5;
+
+}
+
+.image_class{
+  float: left;
+}
+
+.Sedans{
+  background-color: hsl(31, 77%, 52%);
+  display: inline-flex;
+  width: 18%;
+  padding: 5%;
+  font-size:inherit;
+  margin-right: -4px;
+}
+
+
+.suvas{
+  background-color: hsl(184, 100%, 22%);
+  display: inline-flex;
+  width: 18%;
+  padding: 5%;
+  margin: 0px;
+  font-size: inherit;
+  margin-right: -4px;
+
+}
+
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  display: inline-flex;
+  width: 18%;
+  padding: 5%;
+  margin: 0px;
+  font-size: inherit;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #de5216;
+  font-size: 20px;
+  background: #f2f2f2;
+  padding: 5%;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #9aa9b3;
+  text-align: center;
+}
